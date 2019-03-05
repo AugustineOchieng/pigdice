@@ -11,3 +11,16 @@ body {
   background-color: #9F86C0;
   font-family: 'Amiri', serif;
 }
+.container {
+  margin: 8px 0;
+  border: 2px solid #886176;
+  box-sizing: border-box;
+  border-style: none;
+  border-radius: 5px 20px 5px;
+  border-style: outset;
+  width: 700px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  text-align: center;
+}
