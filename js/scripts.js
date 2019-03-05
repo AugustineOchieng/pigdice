@@ -15,3 +15,8 @@ var dieroll1 = 0
 var roll1 = 0
 var dieroll2 = 0
 var roll2 = 0
+
+function player2() {
+  document.getElementbyId("roll1").disabled = true;
+  document.getElementbyId("rolll2").disabled = false;
+}
