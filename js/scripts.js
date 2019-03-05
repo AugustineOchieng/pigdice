@@ -37,3 +37,14 @@ $(document).ready(function () {
     $("#final").slideDown(500);
     $("#enfin").show();
   });
+  $("#roll1").click(function () {
+
+    roll1 = Math.floor((Math.random() * 6) + 1);
+    if (roll1 != 1) {
+      dieroll1 += roll1
+    } else {
+      dieroll1 = 0;
+      player2();
+    }
+    $("#dieroll1").text(roll1);
+  });
