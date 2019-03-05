@@ -24,3 +24,11 @@ function player1() {
   document.getElementbyId("roll1").disabled = false;
   document.getElementbyId("roll2").disabled = true;
 }
+//UI Logic
+$(document).ready(function () {
+
+  $("button,#begin").click(function (event) {
+    $("#register").hide();
+    $("#body").slideDown(500);
+    $("#body").show();
+  });
