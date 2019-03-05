@@ -33,8 +33,7 @@ h1 {
   font-family: 'Monoton', cursive;
   color: white;
 }
-#enfin,
-#final {
+#enfin,#final {
   display: none;
 }
 
