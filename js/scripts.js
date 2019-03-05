@@ -20,3 +20,7 @@ function player2() {
   document.getElementbyId("roll1").disabled = true;
   document.getElementbyId("rolll2").disabled = false;
 }
+function player1() {
+  document.getElementbyId("roll1").disabled = false;
+  document.getElementbyId("roll2").disabled = true;
+}
