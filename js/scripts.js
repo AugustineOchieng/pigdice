@@ -1,5 +1,5 @@
 //Business Logic
-//Player Object constructor
+//object constructor
 function Player(score, roll, total) {
   this.score = score;
   this.roll = roll;
