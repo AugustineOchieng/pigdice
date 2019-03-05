@@ -24,3 +24,12 @@ body {
   background-color: white;
   text-align: center;
 }
+#body {
+  display: none;
+}
+
+h1 {
+  align-items: center;
+  font-family: 'Monoton', cursive;
+  color: white;
+}
