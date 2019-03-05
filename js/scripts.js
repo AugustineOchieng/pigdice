@@ -48,3 +48,30 @@ $(document).ready(function () {
     }
     $("#dieroll1").text(roll1);
   });
+  $("#roll2").click(function () {
+
+    roll2 = Math.floor((Math.random() * 6) + 1);
+    if (roll2 != 1) {
+      dieroll2 += roll2
+    } else {
+      dieroll2 = 0;
+    }
+    $("#dieroll2").text(dieroll2);
+  });
+  $("#hold2").click(function () {
+    $("#returns2").text(dieroll2);
+    if (dieroll2 == 100) {
+      $("#returns2").text("You are the winner!,game over!")
+    } else {
+      player1();
+    }
+  });
+  $("#hold1").click(function () {
+    $("#returns").text(dieroll1);
+    if (dieroll1 == 100) {
+      $("#returns").text("You are the winner!,game over!")
+    } else {
+      player2();
+    }
+  });
+});
