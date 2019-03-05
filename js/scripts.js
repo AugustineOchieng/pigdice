@@ -5,3 +5,8 @@ function Player(score, roll, total) {
   this.roll = roll;
   this.total = total;
 }
+//Methods attached to Player
+Player.prototype.roll = function () {
+  return Math.floor((Math.random() * 6) + 1);
+
+}
