@@ -32,3 +32,8 @@ $(document).ready(function () {
     $("#body").slideDown(500);
     $("#body").show();
   });
+  $("button,#start").click(function (event) {
+    $("#body").hide();
+    $("#final").slideDown(500);
+    $("#enfin").show();
+  });
